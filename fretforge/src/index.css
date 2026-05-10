@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #1a1d23;
+  --bg-card: #22252d;
+  --bg-input: #2a2d36;
+  --bg-hover: #33363f;
+  --border: #2e313a;
+  --text-primary: #f0f0f0;
+  --text-secondary: #d0d0d0;
+  --text-muted: #888;
+  --text-dim: #555;
+  --accent: #e07b4c;
+  --accent-hover: #d06a3a;
+  --accent-blue: #3a5fe0;
+  --accent-blue-hover: #3050c8;
+  --playing: #4caf50;
+  --playing-hover: #43a047;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 28px 32px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.card-icon {
+  font-size: 22px;
+}
+
+@media (max-width: 480px) {
+  .card { padding: 20px 16px; }
+}

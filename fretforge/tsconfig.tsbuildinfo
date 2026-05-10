@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/types.ts","./src/components/footer.tsx","./src/components/header.tsx","./src/components/metronome/metronome.tsx","./src/components/notequiz/notequiz.tsx","./src/hooks/usemetronome.ts","./src/hooks/usenotequiz.ts","./src/hooks/usetaptempo.ts","./src/utils/audio.ts","./src/utils/notes.ts"],"version":"5.9.3"}

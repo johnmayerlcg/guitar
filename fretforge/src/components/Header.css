@@ -1,0 +1,17 @@
+.header {
+  text-align: center;
+  padding: 20px 0 8px;
+}
+
+.header-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: 0.5px;
+}
+
+.header-sub {
+  color: var(--text-muted);
+  font-size: 14px;
+  margin-top: 4px;
+}
